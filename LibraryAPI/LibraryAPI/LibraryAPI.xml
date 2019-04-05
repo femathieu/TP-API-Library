@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryAPI</name>
+    </assembly>
+    <members>
+        <member name="M:LibraryAPI.Controllers.BooksController.GetBooks">
+            <summary>
+            Retourne la liste de tous les livres
+            </summary>
+            <returns>200 la liste des livres</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.BooksController.GetBooks(System.Int32)">
+            <summary>
+            Retourn un libre
+            </summary>
+            <param name="id">l'id du livre a retourner</param>
+            <returns>400 paramètres incorrects</returns>
+            <returns>404 livre introuvable</returns>
+            <returns>200 le livre trouvé</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.BooksController.PutBooks(System.Int32,LibraryAPI.Models.Books)">
+            <summary>
+            Modifie un livre
+            </summary>
+            <param name="id">l'id du livre a modifier</param>
+            <param name="books">les nouvelles données du livre</param>
+            <returns>400 paramètres invalides ou livre non trouvé</returns>
+            <returns>404 livre non trouvé</returns>
+            <returns>204 les modifications se sont effectuées</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.BooksController.PostBooks(LibraryAPI.Models.Books)">
+            <summary>
+            Ajouter un nouveau livre
+            </summary>
+            <param name="books">les données du livre à ajouter</param>
+            <returns>400 les paramètres sont invalides</returns>
+            <returns>201 livre ajouté avec les données du livre ajouté</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.BooksController.DeleteBooks(System.Int32)">
+            <summary>
+            Supprime un livre
+            </summary>
+            <param name="id">l'id du livre a supprimer</param>
+            <returns>400 paramètres invalides</returns>
+            <returns>404 livre non trouvé</returns>
+            <returns>200 livre supprimé avec les données du livre supprimé</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.LoginController.Login(LibraryAPI.Models.Users)">
+            <summary>
+            Connecte un utilisateur
+            </summary>
+            <param name="user">l'utilisateur souhaitant se connecter</param>
+            <returns>400 paramètres invalides</returns>
+            <returns>404  login ou pwd invalides</returns>
+            <returns>200 connexion ok renvoie le jwt</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersBooksController.GetUsersBooks">
+            <summary>
+            Retourne toutes les relations entre les utilisateurs et les livres
+            </summary>
+            <returns>200 les relations utilisateurs-livres</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersBooksController.GetUsersBooks(System.Int32)">
+            <summary>
+            Retourne une relation utilisateur-livre
+            </summary>
+            <param name="id">l'id de la relation a retourner</param>
+            <returns>400 paramètres invalides</returns>
+            <returns>404 relation non trouvée</returns>
+            <returns>200 relation utilisateur-livre</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersBooksController.PutUsersBooks(System.Int32,LibraryAPI.Models.UsersBooks)">
+            <summary>
+            Modifie une relation utilisateur-livre
+            </summary>
+            <param name="id">l'id de la reation a modifié</param>
+            <param name="usersBooks">les données a mettre</param>
+            <returns>400 paramètres invalides</returns>
+            <returns>404 relation non trouvée</returns>
+            <returns>204 la modification s'est effectuée</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersBooksController.PostUsersBooks(LibraryAPI.Models.UsersBooks)">
+            <summary>
+            Ajoute une relation utilisateur-livre
+            </summary>
+            <param name="usersBooks">donnée de la relation</param>
+            <returns>400 paramètres invalides</returns>
+            <returns>409 relation déjà existante</returns>
+            <returns>201 ajout effectué avec les données ajoutées</returns>
+             
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersBooksController.DeleteUsersBooks(System.Int32,LibraryAPI.Models.Users)">
+            <summary>
+            Supprime une relation utilisateur-livre
+            </summary>
+            <param name="id">id de la relation a supprimer</param>
+            <param name="user">l'utilisateur souhaite effectuer la modification</param>
+            <returns>400 paramètres invalide</returns>
+            <returns>404 relation non trouvée</returns>
+            <returns>200 relation supprimée</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersController.GetUsers">
+            <summary>
+            Retourne la liste de tous les utilisateurs
+            </summary>
+            <returns>200 avec la liste des utilisateurs</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersController.GetUsers(System.Int32)">
+            <summary>
+            Retourne un utilisateur
+            </summary>
+            <param name="id">id de l'utilisateur a retourner</param>
+            <returns>400 si le paramètre est invalide</returns>
+            <returns>404 si l'utilisateur n'est pas trouvé</returns>
+            <returns>200 avec l'utilisateur sis tout s'est bien passé</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersController.PutUsers(System.Int32,LibraryAPI.Models.Users)">
+            <summary>
+            Modifie un utilisateur donné
+            </summary>
+            <param name="id">id de l'utilisateur à modifier</param>
+            <param name="users">nouveaux éléments concercant l'utilisateur à modifier</param>
+            <returns>404 si l'utilisateur n'est pas trouvé</returns>
+            <returns>400 si les paramètres donnés sont invalides</returns>
+            <returns>204 si tout s'est bien passé</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersController.PostUsers(LibraryAPI.Models.Users)">
+            <summary>
+            Ajoute un nouvel utilisateur
+            </summary>
+            <param name="users">L'utilisateur a ajouté</param>
+            <returns>201 l'ajout s'est effectué</returns>
+            <returns>400 une erreur s'est produite</returns>
+        </member>
+        <member name="M:LibraryAPI.Controllers.UsersController.DeleteUsers(System.Int32)">
+            <summary>
+            Supprime un utilisateur
+            </summary>
+            <param name="id">id de l'utilisateur a supprimer</param>
+            <returns>400 si les paramètre donnés sont invalides</returns>
+            <returns>404 si l'utilisateur n'est pas trouvé</returns>
+            <returns>200 avec l'utilisateur supprimé si la suppression s'est effectué</returns>
+        </member>
+    </members>
+</doc>

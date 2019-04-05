@@ -1,0 +1,15 @@
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.deps.json
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.runtimeconfig.json
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.runtimeconfig.dev.json
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.dll
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.pdb
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.csprojAssemblyReference.cache
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.csproj.CoreCompileInputs.cache
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.RazorAssemblyInfo.cache
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.RazorAssemblyInfo.cs
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.AssemblyInfoInputs.cache
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.AssemblyInfo.cs
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.RazorTargetAssemblyInfo.cache
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.dll
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp2.1\LibraryAPI.pdb
+C:\Users\mathi\Documents\IMIE\dev3\API-Data\Library\LibraryAPI\LibraryAPI\bin\Debug\netcoreapp2.1\LibraryAPI.xml
