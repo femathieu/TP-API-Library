@@ -25,3 +25,6 @@ CREATE TABLE UsersBooks(
 	CONSTRAINT FK_BooksId_BooksId FOREIGN KEY (BooksId)
 		REFERENCES Books (Id)
 );
+
+INSERT INTO (Firstname, Lastname, Login, Pwd, email, role)
+VALUES('admin', 'admin', 'admin', 'admin', 'admin', 'admin')
